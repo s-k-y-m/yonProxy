@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+#main {
+  display: flex;
+}
+
+#infoRev,
+#contact {
+  display: inline-block;
+  width: 100%;
+}
+
+#infoRev {
+  margin-left: 100px;
+  flex: 1;
+  min-width: 920px;
+}
+
+#contactDiv {
+  display: inline-block;
+  width: 100%;
+  margin-right: 100px;
+}
+
+#contact {
+  flex: 1;
+  margin-top: 30px;
+  margin-right: 50px;
+  position: sticky;
+  top: 0;
+}
+
+#info {
+  padding-top: 32px;
+}
