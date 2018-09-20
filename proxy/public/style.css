@@ -1,9 +1,74 @@
+@font-face {
+  font-family: "Calibre-Regular";
+  src: url("./fonts/Calibre-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Calibre-Medium";
+  src: url("./fonts/CalibreWeb-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Calibre-Semibold";
+  src: url("./fonts/CalibreWeb-Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DomaineText-Italic";
+  src: url("./fonts/DomaineTextWeb-RegularItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DomaineText-LightItalic";
+  src: url("./fonts/DomaineTextWeb-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Calibre-Semibold";
+  src: url("./fonts/calibre-semibold-webfont2.woff") format("woff");
+}
+
 body {
   margin: 0;
 }
 
+.button {
+  background-color: white !important;
+  color: #b70038 !important;
+  cursor: pointer !important;
+  height: 32px !important;
+  padding: 0 16px !important;
+  width: 176px !important;
+  z-index: 1 !important;
+  font-style: normal !important;
+  font-variant-ligatures: normal !important;
+  font-variant-caps: normal !important;
+  font-variant-numeric: normal !important;
+  font-variant-east-asian: normal !important;
+  font-weight: normal !important;
+  font-stretch: normal !important;
+  font-size: 15px !important;
+  line-height: 18px !important;
+  letter-spacing: 0.086em !important;
+  text-transform: uppercase !important;
+  font-family: "Calibre-Medium" !important;
+  border-radius: 0 !important;
+}
+
 #main {
   display: flex;
+}
+
+#navSearch {
+  z-index: 100;
+  position: absolute;
+  width: 50%;
+}
+
+#navSearch .app__dropDownContainer___1kGrv {
+  position: fixed;
+  right: 0;
+  min-width: 960px;
 }
 
 #infoRev,
@@ -27,7 +92,7 @@ body {
 #contact {
   flex: 1;
   margin-top: 30px;
-  margin-right: 50px;
+  padding-left: 20px;
   position: sticky;
   top: 0;
 }
